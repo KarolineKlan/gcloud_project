@@ -11,3 +11,5 @@ WORKDIR /
 RUN pip install -r requirements.txt --no-cache-dir
 
 ENTRYPOINT ["python", "-u", "main.py"]
+
+#add somehting to see if the trigger works if i alter the dockerfile
